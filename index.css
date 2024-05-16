@@ -1,0 +1,106 @@
+body{
+    font-family: Tahoma;
+    color: #444;
+    letter-spacing: 1px;
+}
+
+hi, h2{
+    font-weight: normal;
+}
+#wrapper{
+    width: 90%;
+    max-width: 960px;
+    margin: 20px auto;
+    border-radius: 6px;
+    box-shadow: 0px 1px 6px rgba(0,0,0,0.2);
+    box-sizing: border-box;
+    padding: 0 0 20px;
+    overflow: hidden;
+    border: 1px solid lightgray;
+
+}
+#page-check{
+    background: #eee;
+    padding: 10px 0;
+}
+
+#page-check h1, #page-check p{
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+}
+#page-check input{
+    width: 90%;
+    max-width: 300px;
+    margin: 20px auto;
+    display: block;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #444;
+}
+#task-list ul, #add-task, #tabbed-content{
+    margin: 30px;
+}
+#task-list ul, #tabbed-content ul{
+    list-style: none;
+    padding: 0;
+}
+#task-list li{
+    padding: 20px;
+    border-left: 5px solid #ddd;
+    margin: 20px 10px;
+}
+
+
+#task-list li:nth-child(odd){
+    background: #eee;
+}
+
+#task-list li:hover{
+    background: lightgreen;
+}
+
+.delete{
+    float: right;
+    background:  lightgreen;
+    padding: 6px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+}
+
+.delete:hover{
+    background: #333;
+}
+
+#add-task{
+    width: 400px;
+    margin: 0 auto;
+}
+
+#add-task input{
+    font-size: 16px;
+    border-radius: 4px 0 0 4px;
+    box-sizing: border-box;
+    width: 300px;
+    float: left;
+}
+
+#add-task button{
+    border: 1px solid #9361bf;
+    background: lightgreen;
+
+    margin: 0;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    width:100px;
+    float: left;
+    color: white;
+}
+#add-task:after{
+    content: '';
+    display: block;
+    clear: both;
+}
